@@ -1,0 +1,27 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+ 
+ 
+if SHIELD_DUALMAC_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "Dual Macro Left"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_DUALMAC_RIGHT
+
+config ZMK_KEYBOARD_NAME
+	default "Dual Macro Right"
+
+endif
+
+if SHIELD_DUALMAC_LEFT || SHIELD_DUALMAC_RIGHT
+
+config ZMK_SPLIT
+	default y
+
+endif
