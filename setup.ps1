@@ -88,8 +88,8 @@ $repo_path = "https://github.com/zmkfirmware/zmk-config-split-template.git"
 
 $title = "ZMK Config Setup:"
 $prompt = "Pick an MCU board"
-$options = "BlueMicro840 v1", "nice!nano v2", "nice!nano v1", "nRF52840 M.2 Module", "nRFMicro 1.1 (flipped)", "nRFMicro 1.1/1.2", "nRFMicro 1.3/1.4", "QMK Proton-C",  "" | Where-Object { $_ -ne "" }
-$boards = "bluemicro840_v1", "nice_nano_v2", "nice_nano", "nrf52840_m2", "nrfmicro_11_flipped", "nrfmicro_11", "nrfmicro_13", "proton_c",  "" | Where-Object { $_ -ne "" }
+$options = "BlueMicro840 v1", "nice!nano v2", "nice!nano v1", "nRF52840 M.2 Module", "nRFMicro 1.1 (flipped)", "nRFMicro 1.1/1.2", "nRFMicro 1.3/1.4", "QMK Proton-C", "Mikoto 5.17",  "" | Where-Object { $_ -ne "" }
+$boards = "bluemicro840_v1", "nice_nano_v2", "nice_nano", "nrf52840_m2", "nrfmicro_11_flipped", "nrfmicro_11", "nrfmicro_13", "proton_c", "mikoto_517",  "" | Where-Object { $_ -ne "" }
 
 Write-Host "$title"
 Write-Host ""
