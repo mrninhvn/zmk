@@ -100,8 +100,8 @@ if [ "$keyboard_shield" == "y" ]; then
     shield_title=${keyboard_title}
 
     prompt="Pick an MCU board:"
-    options=("BlueMicro840 v1" "nice!nano v2" "nice!nano v1" "nRF52840 M.2 Module" "nRFMicro 1.1 (flipped)" "nRFMicro 1.1/1.2" "nRFMicro 1.3/1.4" "QMK Proton-C" "Mikoto 5.17" )
-    board_ids=("bluemicro840_v1" "nice_nano_v2" "nice_nano" "nrf52840_m2" "nrfmicro_11_flipped" "nrfmicro_11" "nrfmicro_13" "proton_c" "mikoto_517" )
+    options=("BlueMicro840 v1" "nice!nano v2" "nice!nano v1" "nRF52840 M.2 Module" "nRFMicro 1.1 (flipped)" "nRFMicro 1.1/1.2" "nRFMicro 1.3/1.4" "QMK Proton-C" "Mikoto 5.20" )
+    board_ids=("bluemicro840_v1" "nice_nano_v2" "nice_nano" "nrf52840_m2" "nrfmicro_11_flipped" "nrfmicro_11" "nrfmicro_13" "proton_c" "mikoto_520" )
 
     echo ""
     echo "MCU Board Selection:"
