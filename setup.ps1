@@ -171,10 +171,10 @@ Set-Location "$repo_name"
 
 Push-Location config
 
-Invoke-RestMethod -Uri "https://raw.githubusercontent.com/zmkfirmware/zmk/main/app/boards/shields/${shield}/${shield}.conf" -OutFile "${shield}.conf"
+Invoke-RestMethod -Uri "https://raw.githubusercontent.com/mrninhvn/zmk/mikoto/app/boards/shields/${shield}/${shield}.conf" -OutFile "${shield}.conf"
 
 if ($copy_keymap -eq "yes") {
-    Invoke-RestMethod -Uri "https://raw.githubusercontent.com/zmkfirmware/zmk/main/app/boards/shields/${shield}/${shield}.keymap" -OutFile "${shield}.keymap"
+    Invoke-RestMethod -Uri "https://raw.githubusercontent.com/mrninhvn/zmk/mikoto/app/boards/shields/${shield}/${shield}.keymap" -OutFile "${shield}.keymap"
 }
 
 Pop-Location
