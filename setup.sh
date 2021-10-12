@@ -62,7 +62,7 @@ else
     exit 1
 fi
 
-repo_path="https://github.com/zmkfirmware/zmk-config-split-template.git"
+repo_path="https://github.com/mrninhvn/zmk-config-split-template.git"
 title="ZMK Config Setup:"
 
 echo ""
@@ -131,7 +131,7 @@ else
 fi
 
 if [ "$split" == "n" ]; then
-    repo_path="https://github.com/zmkfirmware/zmk-config-template.git"
+    repo_path="https://github.com/mrninhvn/zmk-config-template.git"
 fi
 
 read -r -e -p "Copy in the stock keymap for customization? [Yn]: " copy_keymap

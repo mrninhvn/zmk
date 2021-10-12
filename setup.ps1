@@ -84,7 +84,7 @@ if (Test-CommandExists Get-Acl) {
     }
 }
 
-$repo_path = "https://github.com/zmkfirmware/zmk-config-split-template.git"
+$repo_path = "https://github.com/mrninhvn/zmk-config-split-template.git"
 
 $title = "ZMK Config Setup:"
 $prompt = "Pick an MCU board"
@@ -113,7 +113,7 @@ $shield = $($names[$choice])
 $split = $($splits[$choice])
 
 if ($split -eq "n") {
-    $repo_path = "https://github.com/zmkfirmware/zmk-config-template.git"
+    $repo_path = "https://github.com/mrninhvn/zmk-config-template.git"
 }
 
 $copy_keymap = Read-Host "Copy in the stock keymap for customisation? [Yn]"
